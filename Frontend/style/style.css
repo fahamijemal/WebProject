@@ -1,0 +1,158 @@
+/* ==== Reset and Base ==== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1269ff;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+/* ==== Container ==== */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #010101, #16254b);
+  padding: 20px;
+}
+
+/* ==== Header ==== */
+.header {
+  margin-bottom: 50px;
+}
+
+.robot-img {
+  width: 120px;
+  height: 120px;
+  margin-top: 20px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #8a8a8a;
+  margin-top: 10px;
+  padding: 0 20px;
+}
+
+/* ==== Landing Page Overrides ==== */
+.container.landing .robot-img {
+  width: 150px;
+  height: 150px;
+}
+
+.container.landing .title {
+  font-size: 28px;
+}
+
+/* ==== Buttons ==== */
+.get-started-btn,
+button {
+  background-color: #1e90ff;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.get-started-btn {
+  padding: 15px 40px;
+}
+
+button {
+  padding: 10px 20px;
+}
+
+.get-started-btn:hover,
+button:hover {
+  background-color: #1c86e5;
+}
+
+/* ==== Form ==== */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.form-input {
+  position: relative;
+}
+
+input {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #8a8a8a;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+}
+
+/* ==== OAuth ==== */
+.oauth {
+  margin-top: 30px;
+}
+
+.oauth-text {
+  font-size: 14px;
+  color: #8a8a8a;
+}
+
+.oauth-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.oauth-btn {
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #333;
+  border: 1px solid #8a8a8a;
+  border-radius: 25px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.oauth-btn img {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.oauth-btn:hover {
+  background-color: #f0f0f0;
+}
+
+/* ==== Sign-up Link ==== */
+.sign-up {
+  margin-top: 20px;
+}
+
+.signup-link {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+}

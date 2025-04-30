@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1 class="title">Sign Up</h1>
+      <p class="subtitle">Create a new account</p>
+      <img src="assets/images/robot.png" alt="Robot" class="robot-img">
+    </div>
+
+    <div class="form-container">
+      <div class="form-input">
+        <input type="email" id="email" placeholder="Email">
+      </div>
+      <div class="form-input">
+        <input type="password" id="password" placeholder="Password">
+      </div>
+      <div class="form-input">
+        <input type="password" id="confirmPassword" placeholder="Confirm Password">
+      </div>
+      <button class="primary-btn" onclick="handleSignup()">Sign Up</button>
+    </div>
+    <div class="sign-up">
+      <p class="subtitle">Already have an account?
+        <a href="login.html" class="signup-link">Login</a>
+      </p>
+    </div>
+  </div>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>

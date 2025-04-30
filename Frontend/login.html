@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1 class="title">Sign in</h1>
+      <p class="subtitle">Access to your account</p>
+      <img src="assets/images/robot.png" alt="Robot" class="robot-img">
+    </div>
+
+    <div class="form-container">
+      <div class="form-input">
+        <input type="email" id="email" placeholder="Email">
+      </div>
+      <div class="form-input">
+        <input type="password" id="password" placeholder="Password">
+      </div>
+      <button class="primary-btn" onclick="handleLogin()">Sign In</button>
+    </div>
+
+    <div class="oauth">
+      <p class="oauth-text">Or Sign In With</p>
+      <div class="oauth-buttons">
+        <button class="oauth-btn" onclick="oauthSignIn('Apple')">
+          <img src="assets/images/apple.png" alt="Apple"> Apple
+        </button>
+        <button class="oauth-btn" onclick="oauthSignIn('Google')">
+          <img src="assets/images/google.png" alt="Google"> Google
+        </button>
+        <button class="oauth-btn" onclick="oauthSignIn('Microsoft')">
+          <img src="assets/images/Microsoft-removebg-preview.png" alt="Microsoft"> Microsoft
+        </button>
+      </div>
+    </div>
+
+    <p class="sign-up">
+      If you don't have an account, <a href="signup.html" class="signup-link">Sign Up</a>
+    </p>
+  </div>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
