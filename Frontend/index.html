@@ -1,21 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome to Our App</title>
-  <link rel="stylesheet" href="style/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chatbot</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <div class="container">
-    <div class="header">
-      <img src="assets/images/robot.png" alt="Robot" class="robot-img">
-      <h1 class="title">Welcome to Our App</h1>
-      <p class="subtitle">Your journey starts here. Let's get started!</p>
-    </div>
-    <a href="login.html" class="get-started-btn">Get Started</a>
-  </div>
+    <div class="landing-container">
+        <header class="hero-header">
+            <img src="assets/images/logo.svg" alt="AI Chatbot Logo" class="logo">
+            <h1>Your Intelligent AI Assistant</h1>
+            <p class="subtitle">Get instant answers to your questions with our powerful AI chatbot</p>
+        </header>
 
-  <script src="js/script.js"></script>
+        <main class="cta-section">
+            <div class="features">
+                <div class="feature-card">
+                    <div class="icon">💡</div>
+                    <h3>Smart Responses</h3>
+                    <p>Our AI understands context and provides accurate answers</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">🔒</div>
+                    <h3>Secure</h3>
+                    <p>Your conversations are private and protected</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">⏱️</div>
+                    <h3>24/7 Available</h3>
+                    <p>Get help anytime, anywhere</p>
+                </div>
+            </div>
+
+            <div class="auth-buttons">
+                <a href="auth/login.html" class="btn btn-primary">Sign In</a>
+                <a href="auth/register.html" class="btn btn-secondary">Create Account</a>
+            </div>
+        </main>
+    </div>
+
+    <script src="assets/js/utils.js"></script>
 </body>
 </html>
